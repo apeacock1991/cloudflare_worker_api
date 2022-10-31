@@ -1,3 +1,7 @@
 name = "cloudflare_worker_api"
 main = "src/index.ts"
 compatibility_date = "2022-10-28"
+
+kv_namespaces = [
+  { binding = "ANIMALS", id = "884c5b396ed74f8b95e66b0c333f477a", preview_id = "41f0ccc348cb4b2c86bbd021e970099e" }
+]
